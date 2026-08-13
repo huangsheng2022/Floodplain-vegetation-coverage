@@ -1,0 +1,7 @@
+### Note on Shapefile Directories
+
+The "Basin91" folder contains the basin boundary shapefiles for the 91 study basins, while the "wmoWorld" folder contains the global boundary shapefiles.
+
+Due to their relatively large file sizes, these two folders are provided separately to reduce the size of the main code package.
+
+When running any analysis or visualization scripts that require these shapefiles, please place the "Basin91" and "wmoWorld" folders in the corresponding paths specified in the scripts before execution. In addition, please extract the two compressed archives, "wmobb_basins" and "World_Boundary", located in the "wmoWorld" folder before running the scripts.
